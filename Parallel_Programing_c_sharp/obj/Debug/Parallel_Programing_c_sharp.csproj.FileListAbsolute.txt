@@ -1,0 +1,6 @@
+C:\Users\Lydia\RiderProjects\Parallel_Programing_c_sharp\bin\Debug\Parallel_Programing_c_sharp.exe
+C:\Users\Lydia\RiderProjects\Parallel_Programing_c_sharp\bin\Debug\Parallel_Programing_c_sharp.pdb
+C:\Users\Lydia\RiderProjects\Parallel_Programing_c_sharp\obj\Debug\Parallel_Programing_c_sharp.csprojAssemblyReference.cache
+C:\Users\Lydia\RiderProjects\Parallel_Programing_c_sharp\obj\Debug\Parallel_Programing_c_sharp.csproj.CoreCompileInputs.cache
+C:\Users\Lydia\RiderProjects\Parallel_Programing_c_sharp\obj\Debug\Parallel_Programing_c_sharp.exe
+C:\Users\Lydia\RiderProjects\Parallel_Programing_c_sharp\obj\Debug\Parallel_Programing_c_sharp.pdb
