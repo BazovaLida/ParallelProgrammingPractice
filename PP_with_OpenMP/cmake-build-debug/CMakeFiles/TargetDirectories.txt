@@ -1,0 +1,3 @@
+/home/lydia/Documents/BasicsOfParallelProgramming/PP_with_OpenMP/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lydia/Documents/BasicsOfParallelProgramming/PP_with_OpenMP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lydia/Documents/BasicsOfParallelProgramming/PP_with_OpenMP/cmake-build-debug/CMakeFiles/PP_with_OpenMP.dir
