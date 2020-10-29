@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/PP_with_OpenMP.dir/main.cpp.o CMakeFiles/PP_with_OpenMP.dir/Data.cpp.o  -o PP_with_OpenMP 
