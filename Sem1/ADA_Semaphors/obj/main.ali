@@ -1,0 +1,144 @@
+V "GNAT Lib v2020"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_LOCAL_PROTECTED_OBJECTS
+RV NO_NESTED_FINALIZATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV MAX_TASKS=1+
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U main%b		main.adb		8e0102bb NE OO SU IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W semaphore%s		semaphore.adb		semaphore.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20200228061810 76789da1 ada%s
+D a-except.ads		20200228061810 a7106115 ada.exceptions%s
+D a-finali.ads		20200228061810 bf4f806b ada.finalization%s
+D a-inteio.ads		20200228061810 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20200228061810 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20200228061810 0240fc73 ada.real_time%s
+D a-stream.ads		20200228061810 119b8fb3 ada.streams%s
+D a-tags.ads		20200228061810 edddc8f0 ada.tags%s
+D a-textio.ads		20200228061810 aef4d56d ada.text_io%s
+D a-tiinio.ads		20200228061810 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20200228061810 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200228061810 5ab55268 interfaces%s
+D i-c.ads		20200228061810 c624fa43 interfaces.c%s
+D i-cstrin.ads		20200228061810 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20200228061810 e53d8b8e interfaces.c_streams%s
+D main.adb		20201202022248 b3fba8bf main%b
+D semaphore.ads		20201202022102 6545f6cd semaphore%s
+D system.ads		20200228061810 32a08138 system%s
+D s-atacco.ads		20200228061810 4c36d12f system.address_to_access_conversions%s
+D s-conca2.ads		20200228061810 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20200228061810 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200228061810 54135002 system.exception_table%s
+D s-ficobl.ads		20200228061810 078245e4 system.file_control_block%s
+D s-finroo.ads		20200228061810 4ff27390 system.finalization_root%s
+D s-imgint.ads		20200228061810 02dbe0c2 system.img_int%s
+D s-memory.ads		20200228061810 597d6634 system.memory%s
+D s-multip.ads		20200228061810 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20200228061810 97504df8 system.os_interface%s
+D s-parame.ads		20200228061810 4752c4cb system.parameters%s
+D s-secsta.ads		20200327060540 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200228061810 a7318a92 system.soft_links%s
+D s-stache.ads		20200228061810 a37c21ec system.stack_checking%s
+D s-stausa.ads		20200228061810 017a0a05 system.stack_usage%s
+D s-stalib.ads		20200228061810 6b7a13f2 system.standard_library%s
+D s-stalib.adb		20200228061810 f2fe2716 system.standard_library%b
+D s-stoele.ads		20200228061810 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20200228061810 601f6b72 system.task_info%s
+D s-taspri.ads		20200228061810 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20200228061810 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20200228061810 88fba9ad system.tasking%s
+D s-taprob.ads		20200228061810 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20200228061810 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20200228061810 5f548bb3 system.tasking.protected_objects.operations%s
+D s-tassta.ads		20200228061810 cca55c94 system.tasking.stages%s
+D s-traent.ads		20200228061810 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200319060540 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200228061810 1b7d22d2 system.wch_con%s
+D s-win32.ads		20200228061810 15ac53fb system.win32%s
+G a e
+G c Z b b [main standard 14 11 none]
+G r s sima [main standard 14 11 none] [simaVIP semaphore 10 4 none]
+G r l sima [main standard 14 11 none] [simaVDI semaphore 10 4 none]
+G r k sima [main standard 14 11 none] [simaVDF semaphore 10 4 none]
+G r s severaltaskssynch [main standard 14 11 none] [severaltaskssynchVIP semaphore 18 4 none]
+G r l severaltaskssynch [main standard 14 11 none] [severaltaskssynchVDI semaphore 18 4 none]
+G r k severaltaskssynch [main standard 14 11 none] [severaltaskssynchVDF semaphore 18 4 none]
+G r o none [main standard 14 11 none] [p semaphore__sima 11 13 none]
+G r o none [main standard 14 11 none] [v semaphore__sima 12 13 none]
+G r p none [main standard 14 11 none] [v semaphore__severaltaskssynch 20 17 none]
+G r o none [main standard 14 11 none] [p semaphore__severaltaskssynch 19 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 16|9r6 9r19 10r5 10r18
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[10|46] 16|9w23 10r22
+X 9 a-textio.ads
+57K13*Text_IO 727e16 16|9w10 10r9
+508U14*Put_Line 16|28s7 37s7 49s7 59s7
+X 10 a-tiinio.ads
+59U14*Get 16|29s7[4|18] 38s7[4|18]
+X 16 main.adb
+14U11*main 14b11 65l5 65t9
+15w4 SemExc{17|10W19} 27r7 30r7 36r7 39r7 48r7 50r7 58r7 60r7
+16w4 SemSynch{17|18W19} 31r7 40r7 46r7 56r7
+18i4 numb1{integer} 29m11 47r14 57r14
+19i4 numb2{integer} 38m11 47r22 57r22
+20t9 Enter1 25b14 32l8 32t14
+21t9 Enter2 34b14 41l8 41t14
+22t9 AddTask 43b14 51l8 51t15
+23t9 SubTask 53b14 61l8 61t15
+44i7 sum{integer} 47m7 49r56
+54i7 sub{integer} 57m7 59r61
+X 17 semaphore.ads
+8K9*Semaphore 16|11w6 12r5 17|26e14
+10W19*SIMA 16|15r12 17|16e12
+11Y13 P 16|27s14 36s14 48s14 58s14
+12Y13 V 16|30s14 39s14 50s14 60s14
+18W19*SeveralTasksSynch 16|16r14 17|24e25
+19Y13 P 16|46s16 56s16
+20U17 V 16|31s16 40s16
+X 18 system.ads
+67M9*Address
+X 26 s-memory.ads
+53V13*Alloc{18|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{18|67M9} 105i<c,__gnat_realloc>22
+X 33 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+X 35 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+

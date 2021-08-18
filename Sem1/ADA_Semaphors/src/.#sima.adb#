@@ -1,0 +1,14 @@
+package body SIMA is
+
+   protected body SIMA is
+      entry Wait when TaskCount > 0 is
+      begin
+         TaskCount := TaskCount - 1;
+      end Wait;
+      entry Signal when TaskCount < MaxCount is
+      begin
+         TaskCount := TaskCount + 1;
+      end Signal;
+   end SIMA;
+
+end SIMA;

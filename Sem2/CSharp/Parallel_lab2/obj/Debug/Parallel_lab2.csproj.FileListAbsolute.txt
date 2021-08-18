@@ -1,0 +1,6 @@
+C:\Users\Lydia\RiderProjects\Parallel_lab2\Parallel_lab2\bin\Debug\Parallel_lab2.exe
+C:\Users\Lydia\RiderProjects\Parallel_lab2\Parallel_lab2\bin\Debug\Parallel_lab2.pdb
+C:\Users\Lydia\RiderProjects\Parallel_lab2\Parallel_lab2\obj\Debug\Parallel_lab2.csprojAssemblyReference.cache
+C:\Users\Lydia\RiderProjects\Parallel_lab2\Parallel_lab2\obj\Debug\Parallel_lab2.csproj.CoreCompileInputs.cache
+C:\Users\Lydia\RiderProjects\Parallel_lab2\Parallel_lab2\obj\Debug\Parallel_lab2.exe
+C:\Users\Lydia\RiderProjects\Parallel_lab2\Parallel_lab2\obj\Debug\Parallel_lab2.pdb
